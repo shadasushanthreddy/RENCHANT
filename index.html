@@ -1,0 +1,540 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>.carousel{  width:100%;
+    height:100%; } </style>
+<style>.carousel-inner > .item > img {
+
+    width:100%;
+    height:100%;
+    
+    } </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>RENCHANT ACCOMMODATIONS  </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css'%}" media="screen" />
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3" id="mainNav">
+    <div class="container">
+      <img src="img/logoo.png" />
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><font size="6">RENCHANT ACCOMMODATIONS</font></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="#about"><font size="4">About</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services"><font size="4">Services</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#offerings"><font size="4">Offerings</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#testimonials"><font size="4">Testimonials</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact"><font size="4">Contact</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="blog.html"><font size="4">Blog</font></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+  <!-- Masthead -->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+              <hr class="divider my-4">
+            </div>
+            <div class="col-lg-80 align-self-baseline">
+        <img src="img\bg-masthead.jpg" alt="Chania">
+        <div class="carousel-caption">
+          <h3><font size="4">Best Rental Homes
+            Driven By Data</font></h3>
+          <p><font size="2">Making memories only an app away</font></p>
+        </div>      
+      </div>
+    </div>
+  </div>
+      </div>
+      <div class="item">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+              <hr class="divider my-4">
+            </div>
+            <div class="col-lg-80 align-self-baseline">
+        <img src="img\livingroom.jpg">
+        <div class="carousel-caption">
+          <h3><font size="4">Sharing Flat, Individual Room
+            Full Apartment</font></h3>
+          <p class="bg-danger"><font size="2">We provide 1/2/3 BHK flats with individual and sharing rooms.
+            Customization according to the needs of Bachelors, couples and families.</font></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="item">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+              <hr class="divider my-4">
+            </div>
+            <div class="col-lg-100 align-self-baseline">
+          <img src="img\flatmate.jpg">
+          <div class="carousel-caption">
+            <h3><font size="4">Want a flatmate ?
+              List your property</font></h3>
+            <p class="bg-danger"><font size="2">Register your property freely with us.
+              No Brokerage. No hidden charges.</font></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="item">
+        <div class="container h-100">
+          <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+              <h1 class="text-uppercase text-white font-weight-bold">Best Rental Homes
+                Driven By Data</h1>
+              <hr class="divider my-4">
+            </div>
+            <div class="col-lg-100 align-self-baseline">
+        <img src="img\propertyrefer.png">
+        <div class="carousel-caption">
+            <h1 ><font size="4"></font>Refer Tenant and
+              Earn</font></h1>
+            <h3><mark><font size="2">Rs.1000 off on your next rent on referring one person.
+              Rs.5000 off on referring the whole flat</font></mark></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- learn Section -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <h2 class="text-black mt-0"></h2><font size="6">Looking for your rental home?</font></h2>
+        <hr class="divider light my-4">
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact"><font size="3">Get Started!</font></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white-bold-dark mt-0"><font size="6">Who We Are</font></h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4"><font size="3">Renchant Accommodations is a data driven housing rental service platform. It's vision is to solve the long-term and short-term rental apartment problem in India. It is committed to transforming the traditional housing rental industry with the use of ML, AI and data driven models. Founded in early 2019, the company is a data-driven, high-quality rental, asset management and residential service platform. The product form covers shared apartments and rented apartments to meet the diverse residential needs of techies in the city.</font></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white-bold-dark mt-0"><font size="5">Why Choose Us?</font></h2>
+          <hr class="divider light my-4">
+          <hr class="divider my-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-8 text-center">
+          <div class="mt-7">
+          <h3 class="text-white-dark 50 mb-4"><font size="4">Benefits for tenants –</font></h3>
+          <li><font size="2">ML based roommate & flatmate selection model</font></li></br>
+          <li><font size="2">Zero Brokerage & just 3 month lock-in</font></li></br>
+          <li><font size="2">Just bring your clothes and live hassle free</font></li></br>
+          <li><font size="2">Affordable Pricing and low security deposit</font></li></br>
+          <li><font size="2">Accommodation near your office</font></li></br>
+          <li><font size="2">Free Relocation</font></li></br>
+          <li><font size="2">Individual and shared rooms</font></li></br>
+          <li><font size="2">24*7 Customer Support</font></li></br>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-20 text-center">
+          <div class="mt-7">
+          <h3 class="text-white-dark 50 mb-4"><font size="4">Benefits for owners –</font></h3>
+            <li><font size="2">Free listing on our portal</font></li></br>
+            <li><font size="2"> Free marketing on various channels</font></li></br>
+            <li><font size="2">Handling Tenant visits, bookings, KYC & verification</font></li></br>
+            <li><font size="2">Property management and maintenance</font></li></br>
+            <li><font size="2">Guranteed payments on time</font></li></br>
+            <li><font size="2">Single point of contact and customer care</font></li></br>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0"><font size="6"></font>At Your Service</h2></font>
+      <hr class="divider my-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+              <img class="img-fluid" src="img\services\fully furnished rooms.jpg">
+            <h3 class="h4 mb-2"><font size="3">Fully Furnished Room</h3></font>
+            <p class="text-muted mb-0"><font size="2">Bed, Mattress, Cupboards, Fully automatic Washing Machine, Sofa, Fridge, RO Water, Power Backup, Geyser.</font></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="img-fluid" src="img\services\wifi.jpg">
+            <h3 class="h4 mb-2"><font size="3">Unlimited Wifi</h3></font>
+            <p class="text-muted mb-0"><font size="2">We can't compromise on 4th basic necessity of life, that's why we provide you 24*7 High speed internet service.</font></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="img-fluid" src="img\services\smart tv.jpg">
+            <h3 class="h4 mb-2"><font size="3">Smart TV with DTH Recharge</font></h3>
+            <p class="text-muted mb-0"><font size="2">It may be high voltage match or watching a random youtube video, do that on big screen with smart TV setup.</font></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="img-fluid" src="img\services\kitchen.jpg">
+            <h3 class="h4 mb-2"><font size="3">Fully Functional Kitchen</font></h3>
+            <p class="text-muted mb-0"><font size="2">We care about your health to the most that's why we provide you hygeinic kitchen with gas connection, RO water and yes we provide the utensils as well.</font></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="img-fluid" src="img\services\House_cleaning.jpg">
+            <h3 class="h4 mb-2"><font size="3">Daily House Keeping</font></h3>
+            <p class="text-muted mb-0"><font size="2">Daily room and washroom cleaning as clean environment makes you happy, motivated and healthy.</font></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <img class="img-fluid" src="img\services\On-Call-Support_1.jpg">
+            <h3 class="h4 mb-2"><font size="3">On Call Support</font></h3>
+            <p class="text-muted mb-0"><font size="2">Any problem in flat ? Just raise your query anytime.</font></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </br>
+</br>
+</br>  </br>  </br>  </br>  </br>  </br>  </br>  </br>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section
+   id="offerings">
+    <h2 class="text-center mt-0"><font size="6">Our current offerings</font></h2>
+    <hr class="divider my-3">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-md-6 text-center">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                <font size="2">CITY</font>
+              </div>
+              <div class="project-name">
+                <font size="3">Bengaluru</font>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                <font size="2">CITY</font>
+              </div>
+              <div class="project-name">
+                <font size="3">Gurugram</font>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                <font size="2">CITY</font>
+              </div>
+              <div class="project-name">
+                <font size="3">INDORE</font>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    </br>
+  </br>
+</br>  </br>  </br>  </br>  </br>  </br>  </br>  </br>
+  </section>
+
+   <!-- Testimonials -->
+  <section
+   <div id="testimonials">
+    <div class="container">
+    <div class="section-title">
+      <h2 class="text-center mt-0"><font size="6">Testimonials</font></h2>
+    <hr class="divider my-3">
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+    <div class="testimonial">
+    <div class="testimonial-image"> <img src="img/testimonials/Ramasamy K.jpg" alt=""> </div>
+    <div class="testimonial-content">
+    <p><font size="3">"I stayed for 6 month during my internship, everything was just perfect."</font></p>
+    <div class="testimonial-meta"><font size="2"> - Ramasami Krishna (Walmart)</font></div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <div class="testimonial-image"> <img src="img/testimonials/Palak Jain.jpg" alt=""> </div>
+    <div class="testimonial-content">
+    <p><font size="3">"I have to move to Bangalore for 3 month project and I can
+    never imagine that I can find such a perfect place to stay near my office
+    house in a day. Thanks Renchant."</font>
+    </p>
+    <div class="testimonial-meta"><font size="2"> - Palak Jain (CA, Deloitte)</font></div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <div class="testimonial-image"> <img src="img/testimonials/Jayesh Jain.jpg" alt=""> </div>
+    <div class="testimonial-content">
+    <p><font size="3">" I just provided my office location and these guys came up with a awesome deal. No multiple site visits,No hidden
+    charges, everything was hassle free. More importantly I got great flatmates who works
+    in the same office."</font>
+    </p>
+    <div class="testimonial-meta"><font size="2"> -Jayesh Jain (Zinnov)</font></div>
+    </div>
+    </div>
+    </div>
+    <div class="row"> </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    <div class="testimonial-image"> <img src="img/testimonials/Nikhil Shankar.jpg" alt=""> </div>
+    <div class="testimonial-content">
+    <p><font size="3">"Moving to a new place was never that easy before. After service was awesome and prompt. Renchant
+    takes care of everything which saved a lot a time and energy for me"</font>
+    </p>
+    <div class="testimonial-meta"><font size="2"> - Nikhil Shankar (UPSC Aspirant)</font></div>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    
+    <div class="testimonial-content">
+    
+    
+    </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+    <div class="testimonial">
+    
+    <div class="testimonial-content">
+    
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">GET IN TOUCH</h2>
+    <hr class="divider my-3">
+          <h3 class="section-subheading text-muted">Please fill out the form below </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger fa-7x"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><font size="3">Send Message</font></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+          <div>90713-03144</br>
+            94684-49493</div>
+        </div>
+        <div class="col-lg-4 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="info@renchant.com">cinfo@renchant.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer -->
+   <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; SUSHANTH REDDY 2020</span>
+        </div>
+        <div class="col-md-5">
+          <ul class="list-inline social-buttons">
+            <li><a href="https://wa.me/919071303144"><i class="fab fa-whatsapp fa-3x"></i></a></li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/RenchantA">
+                <i class="fab fa-twitter fa-3x mb-3"></style></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/RenchantAccommodates">
+                <i class="fab fa-facebook-f fa-3x mb-3"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/company/renchant-accommodations/">
+                <i class="fab fa-linkedin-in fa-3x mb-3"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/renchant_accommodations">
+                <i class="fab fa-instagram fa-3x mb-3"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>=
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+var myIndex=0;carousel();var timeout;function carousel(){var i;var x=document.getElementsByClassName("mySlides");var y=document.getElementsByClassName("carousel-indicators1");for(i=0;i<x.length;i++){y[i].style.cssText="color: white;background-color: transparent;";x[i].style.display="none";}
+myIndex++;if(myIndex>x.length){myIndex=1}
+x[myIndex-1].style.display="block";y[myIndex-1].style.cssText="color: white;background-color: #1f386e;;border-color: white";timeout=setTimeout(carousel,5200);}
+$(window).resize(function(){var x=document.getElementsByClassName("mySlides");for(i=0;i<x.length;i++){x[i].style.height=(window.innerHeight)+"px";}});$(document).ready(function(){var x=document.getElementsByClassName("mySlides");for(i=0;i<x.length;i++){x[i].style.height=(window.innerHeight)+"px";}});$(".carousel-indicators1").click(function(){myIndex=$(this).attr("data-slide-to");clearTimeout(timeout);carousel();});
